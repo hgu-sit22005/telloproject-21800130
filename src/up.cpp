@@ -4,8 +4,8 @@
 
 Up::Up()
 {
-	command = new char[strlen("up 20")+1];
-	strcpy(command, "up 20");
+	command = new char[strlen("up 30")+1];
+	strcpy(command, "up 30");
 }
 
 Up::Up(int _value)

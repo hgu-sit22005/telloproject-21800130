@@ -4,8 +4,8 @@
 
 Right::Right()
 {
-	command = new char[strlen("right 20")+1];
-	strcpy(command, "right 20");
+	command = new char[strlen("right 30")+1];
+	strcpy(command, "right 30");
 }
 
 Right::Right(int _value)

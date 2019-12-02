@@ -4,8 +4,8 @@
 
 Ccw::Ccw()
 {
-	command = new char[strlen("ccw 20")+1];
-	strcpy(command, "ccw 20");
+	command = new char[strlen("ccw 60")+1];
+	strcpy(command, "ccw 60");
 }
 
 Ccw::Ccw(int _value)

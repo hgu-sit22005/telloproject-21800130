@@ -4,8 +4,8 @@
 
 Back::Back()
 {
-	command = new char[strlen("back 20")+1];
-	strcpy(command, "back 20");
+	command = new char[strlen("back 30")+1];
+	strcpy(command, "back 30");
 }
 
 Back::Back(int _value)

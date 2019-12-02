@@ -4,8 +4,8 @@
 
 Forward::Forward()
 {
-	command = new char[strlen("forward 20")+1];
-	strcpy(command, "forward 20");
+	command = new char[strlen("forward 30")+1];
+	strcpy(command, "forward 30");
 }
 
 Forward::Forward(int _value)

@@ -4,8 +4,8 @@
 
 Left::Left()
 {
-	command = new char[strlen("left 20")+1];
-	strcpy(command, "left 20");
+	command = new char[strlen("left 30")+1];
+	strcpy(command, "left 30");
 }
 
 Left::Left(int _value)

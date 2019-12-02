@@ -4,8 +4,8 @@
 
 Down::Down()
 {
-	command = new char[strlen("down 20")+1];
-	strcpy(command, "down 20");
+	command = new char[strlen("down 30")+1];
+	strcpy(command, "down 30");
 }
 
 Down::Down(int _value)
